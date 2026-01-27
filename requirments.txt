@@ -1,0 +1,62 @@
+
+# Core LangChain & LangGraph
+
+langgraph>=0.0.20
+langchain>=0.1.0
+langchain-community>=0.0.20
+
+
+# FREE LLM Providers (install based on your choice)
+
+# GROQ (Recommended - fast & free)
+langchain-groq>=0.0.1
+
+# OLLAMA (Local & private)
+langchain-ollama>=0.0.1
+
+# TOGETHER AI (Free credits)
+langchain-together>=0.0.1
+
+# HUGGING FACE (Completely free)
+langchain-huggingface>=0.0.1
+
+
+# FREE Embeddings (Local - no API needed)
+
+sentence-transformers>=2.2.2
+
+
+# FREE Vector Database (Local - no cloud needed)
+
+chromadb>=0.4.0
+
+
+# API & Web Framework
+
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+httpx>=0.26.0
+python-multipart>=0.0.6
+
+
+# Data Validation & Configuration
+
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+
+# Utilities
+
+tenacity>=8.2.0  # Retry logic
+structlog>=24.1.0  # Better logging
+
+
+# Development & Testing
+
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+black>=24.0.0
+ruff>=0.1.0
